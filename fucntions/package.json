@@ -1,0 +1,30 @@
+{
+  "name": "2.4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "linhtn95",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "prettier": "1.12.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "husky": "^0.14.3",
+    "jest": "^22.4.3",
+    "lint-staged": "^7.0.4"
+  },
+  "scripts": {
+    "precommit": "lint-staged && jest test"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}
