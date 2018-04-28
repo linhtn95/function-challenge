@@ -8,7 +8,7 @@ function liftf(func) {
   };
 }
 
-let addf = liftf(add);
+const addf = liftf(add);
 
 console.log(addf(3)(4));
 console.log(liftf(mul)(5)(6));
