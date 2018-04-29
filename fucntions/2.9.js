@@ -12,5 +12,3 @@ function reverse(binary) {
 var bus = reverse(sub);
 
 console.log(bus(3, 2));
-
-module.exports = {sub, reverse};

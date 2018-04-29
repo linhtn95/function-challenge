@@ -17,5 +17,3 @@ var addLimited = limit(add, 1);
 console.log(addLimited(3, 4)); // 7
 console.log(addLimited(3, 5)); // undefined
 console.log(addLimited(4, 5)); // undefined
-
-module.exports = {add, limit};
