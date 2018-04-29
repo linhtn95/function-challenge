@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js jest test .\test\2.5.test.js
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js jest test .\test\2.11.test.js
 
 PATH: 
   C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\PL_FR\AppData\Local\Microsoft\WindowsApps;C:\Users\PL_FR\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;C:\Users\PL_FR\AppData\Local\Yarn\bin
@@ -4506,7 +4506,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: C:\Windows\system32\cmd.exe
-  Arguments: /d /s /c C:\Users\PL_FR\Desktop\function-challenge\fucntions\node_modules\.bin\jest test .\test\2.5.test.js
+  Arguments: /d /s /c C:\Users\PL_FR\Desktop\function-challenge\fucntions\node_modules\.bin\jest test .\test\2.11.test.js
   Directory: C:\Users\PL_FR\Desktop\function-challenge\fucntions
   Output:
   
