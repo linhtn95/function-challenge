@@ -5,6 +5,8 @@ module.exports = {
     "func-names": "off",
     "no-restricted-properties": "off",
     "max-len": "off",
-    "no-undef": "off"
+    "no-undef": "off",
+    "no-param-reassign": "off",
+    "no-plusplus": "off"
   }
 };
